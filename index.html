@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
@@ -18,32 +20,39 @@
 <body>
   <main>
 
+    <img src="images/bg-pattern-card.svg" alt="Pattern on card" class="card-bg">
+
     <img src="images/image-victor.jpg" alt="Victor's profile picture" class="pfp">
 
     <div class="profile">
-      <span class="name">Victor Crest</span>
-      <span class="age">26</span>
+      <div class="na">
+        <span class="name b">Victor Crest</span>
+        <span class="age">26</span>
+      </div>
       <div class="location">London</div>
     </div>
 
-    <!-- <hr> -->
+    <hr>
     <div class="stats">
       <div class="stat">
-        <div class="num">80K</div>
+        <div class="num b">80K</div>
         <div class="detail">Followers</div>
       </div>
 
       <div class="stat">
-        <div class="num">803K</div>
+        <div class="num b">803K</div>
         <div class="detail">Likes</div>
       </div>
 
       <div class="stat">
-        <div class="num">1.4K</div>
+        <div class="num b">1.4K</div>
         <div class="detail">Photos</div>
       </div>
     </div>
+
   </main>
+  <div id="bg-top"></div>
+  <div id="bg-bottom"></div>
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
